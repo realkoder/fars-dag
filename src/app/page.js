@@ -42,7 +42,7 @@ export default function Home() {
         <div className="flex flex-col items-center m-4">
           <Toaster />
           <h1 className="text-lg my-8">
-            TILLYKKE MED FARS DAG ELSKEDE FAR, KNUS ALEX & MALLE! 🇩🇰{" "}
+            TILLYKKE MED FARS DAG DU KÆRE FAR, KNUS ALEX & MALLE! 🇩🇰{" "}
           </h1>
           <DialogBox />
           <p className="font-sans leading-relaxed my-8 text-xl">
