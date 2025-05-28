@@ -37,40 +37,38 @@ function DialogBox() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle className="text-2xl">Dagen er mors - et digt</DialogTitle>
+          <DialogTitle className="text-2xl">
+            Dagen er fars - et digt
+          </DialogTitle>
           <DialogDescription>{emojis}</DialogDescription>
           <DialogDescription
             className="text-lg text-left"
             style={{ maxHeight: "300px", overflowY: "auto" }}
           >
-            Kære Mor, på denne særlige dag,
-            <br></br>
-            vil vi fejre dig, for alt hvad du gør,
-            <br></br>
-            Du er vores lys, vores trygge havn,
-            <br></br>
-            Med kærlighed og styrke, du altid er nær.
+            Kære Far, på denne særlige dag,
             <br></br>
             <br></br>
-            Fra barndommens dage til nu, vi ser,
+            vil vi fejre dig, for alt hvad du gør i din sag,
             <br></br>
-            Din omsorg og varme, som altid er der,
+            Du er vores smil, vores sjove ven,
             <br></br>
-            Du lærer os livet, med visdom og smil,
-            <br></br>
-            Din kærlighed er gaven, der aldrig vil svinde.
+            Med latter og badminton, du tager med herhen.
             <br></br>
             <br></br>
-            På mors dag hylder vi dig, vores bedste ven,
+            Fra bankens dybder til vores hyggestunder,
+            <br></br>
+            Din varme og humor, som altid sikrer kunder,
+            <br></br>
+            Du lærer os livet, med visdom og grin,
+            <br></br>
+            På fars dag hylder vi dig så fin.
             <br></br>
             Med minder og glæde, vi vil altid være her,
             <br></br>
-            Du er vores stjerne, vores hjerte, vores sang,
+            Du er vores far og i vor hjerte nær.
             <br></br>
-            Tillykke, kære Mor, vi elsker dig så meget.
+            Tillykke, kære Far!
             <br></br>
-            <br></br>
-            Og tak for at vi altid kan ringe og du er der for os - det betyder ALT!
             <br></br>
           </DialogDescription>
         </DialogHeader>
