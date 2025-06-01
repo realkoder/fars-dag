@@ -40,7 +40,7 @@ export default function Home() {
           <DifferentImages />
         </div>
 
-        <div className="flex flex-col items-center m-4">
+        <div className="flex flex-col items-center m-4 max-w-[8rem] sm:max-w-none">
           <Toaster />
           <h1 className="text-lg my-8">
             TILLYKKE MED FARS DAG DU KÆRE FAR, KNUS ALEX & MALLE! 🇩🇰{" "}
