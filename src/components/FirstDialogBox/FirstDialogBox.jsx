@@ -37,9 +37,9 @@ function FirstDialogBox() {
           <Image
             src="cykel-selfie.jpg"
             alt="Cykel"
-            width={400}
-            height={400}
-            className="m-4 rounded-lg shadow-lg cursor-pointer w-full h-full"
+            width={300}
+            height={300}
+            className="m-4 rounded-lg shadow-lg cursor-pointer"
             onClick={() => toast.info("🚴🚴🚴🚴")}
           />
         </DialogDescription>
