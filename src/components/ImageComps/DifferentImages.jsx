@@ -10,7 +10,9 @@ const DifferentImages = () => {
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("Altid en fornøjelse med faacetime og drinxxx")}
+        onClick={() =>
+          toast.info("Altid en fornøjelse med faacetime og drinxxx")
+        }
       />
       <div className="flex justify-center">
         <Image
@@ -31,36 +33,36 @@ const DifferentImages = () => {
         />
       </div>
       <Image
-        src="malle-og-mor2.jpg"
+        src="far-closeup.jpg"
         alt="Horse"
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("MORS DAG!")}
+        onClick={() => toast.info("FARS DAG!")}
       />
       <Image
-        src="malle-og-mor.jpg"
+        src="malle-far.jpeg"
         alt="Birthday hat"
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("MORS DAG!")}
+        onClick={() => toast.info("FARS DAG!")}
       />
       <Image
-        src="mor2.jpg"
-        alt="Mor"
+        src="another-closeup.jpeg"
+        alt="FAR"
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("SMART ALTSÅ!")}
+        onClick={() => toast.info("🤪🤪🤪!")}
       />
       <Image
-        src="abba-mor-far.jpg"
-        alt="ABBA"
+        src="selfie-hat.jpg"
+        alt="DE FRANCE"
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("ABBA!!!")}
+        onClick={() => toast.info("DET ER TOUREN!!!")}
       />
     </>
   );

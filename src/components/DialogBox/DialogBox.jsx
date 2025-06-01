@@ -10,13 +10,13 @@ import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 function DialogBox() {
-  const kam = "❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️";
-  const mis = "🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰";
-  const [emojis, setEmojis] = useState(kam);
+  const ketcher = "🏸🏸🏸🏸🏸🏸🏸🏸🏸🏸";
+  const flag = "🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰🇩🇰";
+  const [emojis, setEmojis] = useState(ketcher);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setEmojis((cur) => (cur === kam ? mis : kam));
+      setEmojis((cur) => (cur === ketcher ? flag : ketcher));
     }, 1000);
 
     return () => clearInterval(interval);
@@ -24,15 +24,7 @@ function DialogBox() {
 
   return (
     <Dialog>
-      <DialogTrigger
-        className="bg-purple-600 font-bold py-2 px-4 rounded"
-        onClick={() => {
-          toast("DET ER DIN FØDSELSDAG!", {
-            description: "KAM KAM KAM",
-            duration: 5000,
-          });
-        }}
-      >
+      <DialogTrigger className="bg-blue-500 font-bold py-2 px-4 rounded hover:bg-white">
         KLIK MIG
       </DialogTrigger>
       <DialogContent>
