@@ -18,16 +18,16 @@ const DifferentImages = () => {
         <Image
           src="amalie-sander.jpeg"
           alt="amalie og alex"
-          width={70}
-          height={70}
+          width={60}
+          height={60}
           className="m-2 rounded-lg shadow-lg cursor-pointer"
           onClick={() => toast.info("jajajajajaja 🤪🤪🤪")}
         />
         <Image
           src="malle-sander2.jpg"
           alt="Hundemad"
-          width={70}
-          height={70}
+          width={50}
+          height={50}
           className="m-2 rounded-lg shadow-lg cursor-pointer"
           onClick={() => toast.info("jajajajajaja 🤷‍♀️🤷‍♀️🤷‍♀️🤷‍♀️")}
         />
@@ -62,7 +62,7 @@ const DifferentImages = () => {
         width={350}
         height={350}
         className="m-4 rounded-lg shadow-lg cursor-pointer"
-        onClick={() => toast.info("DET ER TOUREN!!!")}
+        onClick={() => toast.info("STILEN FEJLER INTET!!!")}
       />
     </>
   );

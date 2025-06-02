@@ -21,7 +21,7 @@ export default function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setFlagUrl((cur) =>
-        cur === handHoldFlagUrl ? classicFlagUrl : handHoldFlagUrl,
+        cur === handHoldFlagUrl ? classicFlagUrl : handHoldFlagUrl
       );
     }, 1000);
 
@@ -79,7 +79,7 @@ export default function Home() {
                 className="m-2 rounded-lg shadow-lg cursor-pointer"
                 onClick={() =>
                   toast.info(
-                    "SÅ BLEV DET FARS DAG og blyanterne er altid spidsede!",
+                    "SÅ BLEV DET FARS DAG og blyanterne er altid spidsede!"
                   )
                 }
               />
@@ -91,7 +91,7 @@ export default function Home() {
                 className="m-2 rounded-lg shadow-lg cursor-pointer"
                 onClick={() =>
                   toast.info(
-                    "SÅ BLEV DET FARS DAG og den kære papa er også lige med - hihiihi!",
+                    "SÅ BLEV DET FARS DAG og den kære papa er også lige med - hihiihi!"
                   )
                 }
               />
@@ -119,7 +119,7 @@ export default function Home() {
             width={350}
             height={350}
             className="m-4 rounded-lg shadow-lg cursor-pointer"
-            onClick={() => toast.info("BANK MAN 🏦")}
+            onClick={() => toast.info("Et dejligt billede foran noget dejligt kunst")}
           />
         </div>
 

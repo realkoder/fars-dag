@@ -25,7 +25,7 @@ function DialogBox() {
   return (
     <Dialog>
       <DialogTrigger className="bg-blue-500 font-bold py-2 px-4 rounded hover:bg-white">
-        KLIK MIG
+        FARS DAG
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>

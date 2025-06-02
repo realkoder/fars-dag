@@ -26,9 +26,19 @@ function FirstDialogBox() {
 
   return (
     <Dialog open={open} onOpenChange={setOpen}>
-      <DialogContent className="bg-blue-400 flex flex-col justify-center">
+      <DialogContent className="bg-blue-400 h-full max-h-[90%] flex flex-col items-center">
         <DialogHeader>
-          <DialogTitle className="text-2xl text-center">CYKEL FYR</DialogTitle>
+          <DialogTitle className="flex justify-center items-center">
+            <p className="text-xl text-center">FARS DAG</p>
+            <Image
+              src="https://samvirke.dk/sites/default/files/styles/16_9_xsmall/public/migrated/kh/khoksekoed.jpg.jpeg?itok=TZzNElWN"
+              alt="Cykel"
+              width={50}
+              height={50}
+              className="m-4 rounded-lg shadow-lg cursor-pointer"
+              onClick={() => toast.info("HA HA HA 🤪🤪🤪")}
+            />
+          </DialogTitle>
           <DialogDescription className="text-2xl text-center">
             {emojis}
           </DialogDescription>
@@ -37,9 +47,9 @@ function FirstDialogBox() {
           <Image
             src="cykel-selfie.jpg"
             alt="Cykel"
-            width={300}
-            height={300}
-            className="m-4 rounded-lg shadow-lg cursor-pointer"
+            width={250}
+            height={250}
+            className="w-[300px] h-[300px] md:w-[350px] md:h-[450px] m-2 rounded-lg shadow-lg cursor-pointer"
             onClick={() => toast.info("🚴🚴🚴🚴")}
           />
         </DialogDescription>
